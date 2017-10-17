@@ -10,7 +10,6 @@ Person("michael", "Stein").name
 Person("michael", "Stein").firstName
 
 val aPerson = new Person("Dave","Jones")
-aPerson
 
 val newPerson = aPerson.copy()
 aPerson eq aPerson
@@ -34,6 +33,10 @@ case object Nail {
 
 Nail.length
 
+
+
+
+// now the cat excercises
 case class Cat (colour: String, food: String)
 
 Cat("brown","kibbles and bits").colour
